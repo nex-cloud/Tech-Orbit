@@ -1,0 +1,36 @@
+html{
+    background-color: #ffffff;
+    margin: 1rem;
+}
+
+body{
+    background-color: #b6f2d3;
+    padding: 10px;
+    border: 1px solid #258476;
+    margin-left: 5px;
+    border-collapse: collapse;
+    box-shadow: 0 0 4px rgba(0.0.0,15);
+    width: 20rem;
+}
+
+h1{
+    color: #258476;
+}
+
+p {
+    color: #258476;
+}
+
+input {
+    color: #18584f;
+    background-color: #c2ffe0;
+    border-color: #258476;
+    border-radius: 5px;
+}
+
+input.borrar{
+    cursor: pointer;
+}
+input.enviar{
+    cursor: pointer;
+}

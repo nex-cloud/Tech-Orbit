@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: century gothic;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body {
+   background-image: url(imagenes/67.jfif)
+}
+
+.logo table td {
+    text-align: center;
+    font-family: decaydence;
+    font-size: 20px;
+}
+
+nav ul {
+    width: 108%;
+    margin-left: 30%;
+    border-radius: 10px;
+    list-style-type: none;
+    background-color: #FCFFE0; 
+}
+nav li {
+    display: inline-flex;
+}
+
+nav a {
+    padding: 20px;
+    width: 150%;
+    font-family: monospace;
+}
+
+nav ul a:hover {
+    background-color: rgba(135, 206, 235, 0.79);
+}
+
+.contenido {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.contenido .articulo{
+    width: 80%;
+    margin: auto;
+}
+
+.titulo h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.titulo1 h1 {
+    text-align: left;
+    padding: 45px;
+    margin-left: 85px;
+    font-size: 35px;
+}
+.titulo1 h2 {
+    text-align: left;
+    padding: 10px;
+    margin-left: 125px;
+    font-size: 30px;
+}
+.contenido .articulo div {
+    width: 90%;
+    padding: 15px;
+    background-color: skyblue;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.contenido .articulo img {
+    width: 300px;
+    border-radius: 15px;
+} 
+    
+.contenido .secundario {
+    width: 30%;
+}
+
+.contenido .secundario p {
+    background-color: skyblue;
+    border-radius: 15px;
+    padding: 20px;
+    height: 600px;
+}
+
+.piedepagina {
+    background-color: skyblue;
+    margin-top: 15px;
+}
+
+.piedepagina p {
+    padding: 100px;
+    height: 60px;
+}
